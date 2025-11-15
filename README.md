@@ -12,8 +12,8 @@ The Homeless Token is designed to support homeless communities,build better hous
 ## Token Details
 
 - **Token Name:** Homeless
-- **Token Code:** HOME (or whatever code you used)
+- **Token Code:** HOME 
 - **Issuer Address:** GCVOKGMWSQ7QEAKPXMHHD6XKZGS4ZV66IFEECHHU5QCVKC4I7MBUF7N3
-- **Total Supply:** 33,000,000,000 (or whatever you minted)
+- **Total Supply:** 33,000,000,000 
 - **Decimals:** 7
 - **Network:** Stellar Public Network
