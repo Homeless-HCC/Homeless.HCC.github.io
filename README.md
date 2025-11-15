@@ -8,3 +8,12 @@ A Stellar-based token built on the Stellar blockchain.
 
 
 The Homeless Token is designed to support homeless communities,build better housing, feed, and clothes by providing a transparent way to donate and track charitable contributions on the Stellar blockchain. This token enables direct peer-to-peer transactions with minimal fees.
+
+## Token Details
+
+- **Token Name:** Homeless
+- **Token Code:** HOME (or whatever code you used)
+- **Issuer Address:** GCVOKGMWSQ7QEAKPXMHHD6XKZGS4ZV66IFEECHHU5QCVKC4I7MBUF7N3
+- **Total Supply:** 33,000,000,000 (or whatever you minted)
+- **Decimals:** 7
+- **Network:** Stellar Public Network
