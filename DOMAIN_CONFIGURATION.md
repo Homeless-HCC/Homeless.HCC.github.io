@@ -15,8 +15,8 @@ The domain name is configured in the following files:
    - This is the primary Stellar configuration file served at `/.well-known/stellar.toml`
 
 2. **`stellar.toml`** (line 2)
-   - `HOME_DOMAIN="Homeless_HCC.github.io"`
-   - ⚠️ **Note:** This has a different/inconsistent domain name
+   - `HOME_DOMAIN="homelesscommunitycare-hcc.github.io"`
+   - ✅ Now updated to match the correct domain
 
 ## Can You Change It?
 
@@ -33,7 +33,7 @@ If you own a custom domain (e.g., `homelesscommunitycare.org`), you can configur
    ```
    Type: CNAME
    Name: www (or @)
-   Value: homelesscommunittycare-hcc.github.io
+   Value: homelesscommunitycare-hcc.github.io
    ```
 
 3. **Create a CNAME file** in the root of your repository:
@@ -61,18 +61,12 @@ If you own a custom domain (e.g., `homelesscommunitycare.org`), you can configur
 
 You can continue using `homelesscommunitycare-hcc.github.io` for free. This is perfectly acceptable and works well for many projects.
 
-## Important: Fix Inconsistencies
+## Configuration Status
 
-Currently, your configuration files have **inconsistent domain names**:
+Your configuration files now have **consistent domain names** ✅
 
-- `.well-known/stellar.toml`: `homelesscommunitycare-hcc.github.io` ✅ (Correct)
-- `stellar.toml`: `Homeless_HCC.github.io` ❌ (Incorrect - should match)
-
-### Recommendation:
-Update `stellar.toml` line 2 to match the correct domain:
-```toml
-HOME_DOMAIN="homelesscommunitycare-hcc.github.io"
-```
+- `.well-known/stellar.toml`: `homelesscommunitycare-hcc.github.io` ✅ 
+- `stellar.toml`: `homelesscommunitycare-hcc.github.io` ✅ (Fixed in this update)
 
 This ensures consistency across all your Stellar blockchain configurations.
 
